@@ -1,0 +1,307 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.frame { /* div class frame: basically keeps all the bokeh action within ths area */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bokeh { /* div class bokeh */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: #aa959e;
+  overflow: hidden;
+}
+.bokeh div { /*these are the individual bokehs */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+}
+.bokeh div:nth-child(1) {
+  width: 48.499135651px;
+  height: 48.499135651px;
+  top: 208px;
+  left: 227px;
+  background-color: #2dcfc4;
+  opacity: 0.95;
+  filter: brightness(313%);
+  box-shadow: 0 0 11px 2px #2dcfc4;
+  transform-origin: 50px 125px;
+  -webkit-animation: bokeh 46s linear infinite;
+          animation: bokeh 46s linear infinite;
+}
+.bokeh div:nth-child(2) {
+  width: 42.4685477857px;
+  height: 42.4685477857px;
+  top: 94px;
+  left: 77px;
+  background-color: red;
+  opacity: 0.8;
+  filter: brightness(250%);
+  box-shadow: 0 0 10px 4px red;
+  transform-origin: 160px 46px;
+  -webkit-animation: bokeh 55s linear infinite;
+          animation: bokeh 55s linear infinite;
+}
+.bokeh div:nth-child(3) {
+  width: 40.3566886859px;
+  height: 40.3566886859px;
+  top: 169px;
+  left: 47px;
+  background-color: red;
+  opacity: 0.95;
+  filter: brightness(327%);
+  box-shadow: 0 0 7px 3px red;
+  transform-origin: 84px 131px;
+  -webkit-animation: bokeh 55s linear infinite;
+          animation: bokeh 55s linear infinite;
+}
+.bokeh div:nth-child(4) {
+  width: 29.1589600586px;
+  height: 29.1589600586px;
+  top: 397px;
+  left: 72px;
+  background-color: red;
+  opacity: 0.65;
+  filter: brightness(233%);
+  box-shadow: 0 0 10px 3px red;
+  transform-origin: 192px 193px;
+  -webkit-animation: bokeh 69s linear infinite;
+          animation: bokeh 69s linear infinite;
+}
+.bokeh div:nth-child(5) {
+  width: 33.0786140844px;
+  height: 33.0786140844px;
+  top: 218px;
+  left: 255px;
+  background-color: red;
+  opacity: 0.8;
+  filter: brightness(259%);
+  box-shadow: 0 0 13px 5px red;
+  transform-origin: 47px 14px;
+  -webkit-animation: bokeh 40s linear infinite;
+          animation: bokeh 40s linear infinite;
+}
+.bokeh div:nth-child(6) {
+  width: 16.1921590958px;
+  height: 16.1921590958px;
+  top: 394px;
+  left: 107px;
+  background-color: red;
+  opacity: 1.1;
+  filter: brightness(301%);
+  box-shadow: 0 0 15px 3px red;
+  transform-origin: 50px 32px;
+  -webkit-animation: bokeh 53s linear infinite;
+          animation: bokeh 53s linear infinite;
+}
+.bokeh div:nth-child(7) {
+  width: 32.1287644881px;
+  height: 32.1287644881px;
+  top: 342px;
+  left: 107px;
+  background-color: red;
+  opacity: 0.65;
+  filter: brightness(314%);
+  box-shadow: 0 0 1px 4px red;
+  transform-origin: 189px 196px;
+  -webkit-animation: bokeh 34s linear infinite;
+          animation: bokeh 34s linear infinite;
+}
+.bokeh div:nth-child(8) {
+  width: 45.6280629454px;
+  height: 45.6280629454px;
+  top: 304px;
+  left: 168px;
+  background-color: red;
+  opacity: 0.8;
+  filter: brightness(304%);
+  box-shadow: 0 0 3px 2px red;
+  transform-origin: 85px 59px;
+  -webkit-animation: bokeh 71s linear infinite;
+          animation: bokeh 71s linear infinite;
+}
+.bokeh div:nth-child(9) {
+  width: 38.9339632137px;
+  height: 38.9339632137px;
+  top: 133px;
+  left: 276px;
+  background-color: red;
+  opacity: 1.1;
+  filter: brightness(237%);
+  box-shadow: 0 0 12px 5px red;
+  transform-origin: 89px 95px;
+  -webkit-animation: bokeh 61s linear infinite;
+          animation: bokeh 61s linear infinite;
+}
+.bokeh div:nth-child(10) {
+  width: 49.5467004573px;
+  height: 49.5467004573px;
+  top: 296px;
+  left: 105px;
+  background-color: red;
+  opacity: 0.8;
+  filter: brightness(310%);
+  box-shadow: 0 0 8px 1px red;
+  transform-origin: 79px 39px;
+  -webkit-animation: bokeh 55s linear infinite;
+          animation: bokeh 55s linear infinite;
+}
+.bokeh div:nth-child(11) {
+  width: 34.5659130314px;
+  height: 34.5659130314px;
+  top: 204px;
+  left: 15px;
+  background-color: red;
+  opacity: 0.65;
+  filter: brightness(231%);
+  box-shadow: 0 0 7px 4px red;
+  transform-origin: 3px 87px;
+  -webkit-animation: bokeh 58s linear infinite;
+          animation: bokeh 58s linear infinite;
+}
+.bokeh div:nth-child(12) {
+  width: 34.8491362837px;
+  height: 34.8491362837px;
+  top: 260px;
+  left: 67px;
+  background-color: red;
+  opacity: 0.95;
+  filter: brightness(301%);
+  box-shadow: 0 0 14px 1px red;
+  transform-origin: 182px 118px;
+  -webkit-animation: bokeh 54s linear infinite;
+          animation: bokeh 54s linear infinite;
+}
+.bokeh div:nth-child(13) {
+  width: 29.8210159424px;
+  height: 29.8210159424px;
+  top: 25px;
+  left: 358px;
+  background-color: red;
+  opacity: 0.95;
+  filter: brightness(298%);
+  box-shadow: 0 0 9px 5px red;
+  transform-origin: 132px 54px;
+  -webkit-animation: bokeh 72s linear infinite;
+          animation: bokeh 72s linear infinite;
+}
+.bokeh div:nth-child(14) {
+  width: 36.9245975009px;
+  height: 36.9245975009px;
+  top: 127px;
+  left: 264px;
+  background-color: red;
+  opacity: 0.95;
+  filter: brightness(305%);
+  box-shadow: 0 0 14px 5px red;
+  transform-origin: 188px 98px;
+  -webkit-animation: bokeh 63s linear infinite;
+          animation: bokeh 63s linear infinite;
+}
+.bokeh div:nth-child(15) {
+  width: 22.3084644926px;
+  height: 22.3084644926px;
+  top: 14px;
+  left: 347px;
+  background-color: red;
+  opacity: 0.8;
+  filter: brightness(301%);
+  box-shadow: 0 0 9px 1px red;
+  transform-origin: 72px 57px;
+  -webkit-animation: bokeh 80s linear infinite;
+          animation: bokeh 80s linear infinite;
+}
+.bokeh div:nth-child(16) {
+  width: 24.4681824723px;
+  height: 24.4681824723px;
+  top: 263px;
+  left: 75px;
+  background-color: red;
+  opacity: 0.65;
+  filter: brightness(223%);
+  box-shadow: 0 0 12px 5px red;
+  transform-origin: 30px 4px;
+  -webkit-animation: bokeh 36s linear infinite;
+          animation: bokeh 36s linear infinite;
+}
+.bokeh div:nth-child(17) {
+  width: 29.1271189913px;
+  height: 29.1271189913px;
+  top: 266px;
+  left: 285px;
+  background-color: red;
+  opacity: 1.1;
+  filter: brightness(202%);
+  box-shadow: 0 0 4px 3px red;
+  transform-origin: 138px 187px;
+  -webkit-animation: bokeh 55s linear infinite;
+          animation: bokeh 55s linear infinite;
+}
+.bokeh div:nth-child(18) {
+  width: 42.9518669701px;
+  height: 42.9518669701px;
+  top: 7px;
+  left: 299px;
+  background-color: red;
+  opacity: 0.8;
+  filter: brightness(206%);
+  box-shadow: 0 0 10px 5px red;
+  transform-origin: 65px 114px;
+  -webkit-animation: bokeh 66s linear infinite;
+          animation: bokeh 66s linear infinite;
+}
+.bokeh div:nth-child(19) {
+  width: 40.310395598px;
+  height: 40.310395598px;
+  top: 132px;
+  left: 262px;
+  background-color: red;
+  opacity: 0.65;
+  filter: brightness(231%);
+  box-shadow: 0 0 12px 1px red;
+  transform-origin: 164px 140px;
+  -webkit-animation: bokeh 42s linear infinite;
+          animation: bokeh 42s linear infinite;
+}
+.bokeh div:nth-child(20) {
+  width: 1.7852012553px;
+  height: 1.7852012553px;
+  top: 237px;
+  left: 264px;
+  background-color: red;
+  opacity: 0.65;
+  filter: brightness(277%);
+  box-shadow: 0 0 2px 3px red;
+  transform-origin: 35px 54px;
+  -webkit-animation: bokeh 47s linear infinite;
+          animation: bokeh 47s linear infinite;
+}
+
+@-webkit-keyframes bokeh {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bokeh {
+  100% {
+    transform: rotate(360deg);
+  }
+}

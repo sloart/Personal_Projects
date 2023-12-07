@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+html, body {
+    height: 100%;
+    margin: 0;
+    /*background: midnightblue;*/
+    background-image: url("assets/images/web-closeup-1600.webp");
+}
+
+a { /* right now these are just the anchor tags inside the bokeh */
+    display: flex;
+    width: 80%;
+    height: 80%;
+    align-self: center;
+    justify-self: center;
+}
+
+.bokeh { /* div class that holds the clickable bokeh */
+    position: absolute;
+    background-color: transparent; /* just for now to show this div clearly */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.bokeh div { /*these are the individual bokehs */
+    display: block;
+    justify-content: center;
+    position: absolute;
+    border-radius: 75%;
+    background-color: white; /* color of the bokeh */
+    opacity: 0.5;
+}
+
+.bokeh div:nth-child(1) {
+    width: 250px;
+    height: 250px;
+    top: 20%;
+    left: 35%;
+    box-shadow: 0 0 15px 10px white; /* color of the corona */
+}
+.bokeh div:nth-child(2), div:nth-child(4) {
+    width: 125px;
+    height: 125px;
+    box-shadow: 0 0 10px 4px white; /* color of the corona */
+}
+.bokeh div:nth-child(2) {
+    top: 10%;
+    left: 10%;
+}
+.bokeh div:nth-child(4) {
+    top: 55%;
+    left: 75%;
+}
+
+.bokeh div:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 5%;
+    box-shadow: 0 0 7px 3px white; /* color of the corona */
+}
+
+/* particles-js stuff (the web in the background */
+/* the "styling" for this is actually in the js file */
+canvas, #particles-js {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+
+
+
+
+

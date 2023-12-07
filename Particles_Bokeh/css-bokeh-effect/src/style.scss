@@ -1,0 +1,64 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+$color:  red;
+
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.bokeh {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+	width: 400px;
+	height: 400px;
+	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);
+	background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
+	overflow:hidden;
+
+	div {
+		position: absolute;
+		border-radius: 50%;
+		
+		@for $i from 1 through 20 {
+			&:nth-child(#{$i}) {
+				$r: random() * 50px;
+				width: $r;
+				height: $r;
+				top: random(400) + px;
+				left: random(400) + px;
+				background-color: $color;
+				opacity: 0.5 + random(4) * 0.15;
+				filter:  brightness(200 + random(150) * 1%);
+				box-shadow: 0 0 random(15) + px random(5) + px  $color;
+				transform-origin: random(200) + px random(200) + px;
+				animation: bokeh random(50) + 30s linear infinite;
+			}
+		}
+
+	}
+}
+
+
+@keyframes bokeh {
+	100% {transform: rotate(360deg);}
+}
