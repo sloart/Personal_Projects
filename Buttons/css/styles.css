@@ -1,0 +1,40 @@
+body {
+    background-color: gainsboro;
+}
+
+div {
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+img {
+    /*#pizza, #cheeseburger, #french-fries {*/
+    width: 200px;
+}
+
+#pizza:hover {
+    content: url("../assets/images/8-bit-pizza-inv.png");
+}
+#cheeseburger:hover {
+    content: url("../assets/images/8-bit-cheeseburger-inv.png");
+}
+#french-fries:hover {
+    content: url("../assets/images/8-bit-french-fries-inv.png");
+}
+
+#drumstick:hover {
+    content: url("../assets/images/drumstick-inv.png");
+}
+
+
+#container {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
