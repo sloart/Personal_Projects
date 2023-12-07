@@ -1,0 +1,28 @@
+#container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3px;
+    text-align: center;
+
+}
+
+#buttons{
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 5px;
+}
+
+.centered{
+    max-width: 300px;
+    margin: auto;
+}
+
