@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Wildflour Pastry Charleston" content="Wild, out-of-the-box pastries and desserts">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<title>Wildflour Pastry - Charleston, SC</title>
+</head>
+
+<body>
+	<main>
+		<nav>
+			<div>
+				<img class="logo" src="images/WILDFLOURPASTRY_LOGO.png" alt="Wildflour logo">
+		    </div>
+				  
+			<input id="menu-toggle" type="checkbox" />
+		    <label class='menu-button-container' for="menu-toggle">
+				<div class='menu-button'></div>
+		    </label>
+
+		    <ul class="menu">
+		   		<li></li> <!-- secret invisible cell at beginning of ul li-->
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Our Menu</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="wedding_cakes.html">Wedding Cakes</a></li>
+				<li><a href="contact.html">Contact</a></li>
+		    </ul>
+		</nav>
+
+		<section class="spotlight">
+			 <article>
+			    <figure>
+			      <img src="images/dino.jpg"  alt="sweet breads and a tiny dinosaur toy">
+			    </figure>
+			    <p>
+			    "You can see that these guys have a sense of humor. I love finding little surprises like this tiny dino that show off the fun personality of WildFlour."
+			    </p>
+			    </article> <!-- end of article 1 -->
+			  <article>
+				<figure>
+					<img src="images/sugar_cookie.jpg"  alt="sugar cookie with rainbow sprinkles">
+				</figure>
+				<p>"I dare you not to smile when you have a cookie like this! Today we celebrated our 16 year-old's coming out day with some rainbow-sprinkled sugar cookies. They are so good!"</p>
+			</article> <!-- end of article 2 -->
+			<article>
+				<figure>
+					<img src="images/drink_menu.jpg"  alt="drink menu">
+				</figure>
+				<p>"Just in case you didn't know what a great bakery/coffee shop offers in the way of drinks..."</p>
+			</article> <!-- end of article 3 -->
+			<article>
+			    <figure>
+			      <img src="images/play_area.jpg"  alt="play area for children">
+			    </figure>
+			    <p>"I can let my little one bake while I wait in line. Gotta start 'em somewhere!"</p>
+			    </article> <!-- end of article 4 -->
+			<article>
+				<figure>
+					<img src="images/thank_you.jpg"  alt="hand-written thank you on a coffee sleeve">
+				</figure>
+				<p>"These ladies surprise me every time. I didn't see the handwritten thank-you on my coffee until I got home and took it out of the drink carrier. Giovanni likes it too."</p>
+			</article> <!-- end of article 5 -->
+			<article>
+				<figure>
+					<img src="images/quiche.jpg"  alt="close-up photo of a small quiche">
+				</figure>
+				<p>"They have the best quiches, hands-down."</p>
+			</article> <!-- end of article 6 -->
+			<article>
+				<figure>
+					<img src="images/bagel.jpg"  alt="sesame bagel">
+				</figure>
+				<p>"I like to start my day with a bagel. They make the only bagels I trust."</p>
+			</article> <!-- end of article 5 -->
+			<article>
+				<figure>
+					<img src="images/savory.jpg"  alt="a display with several savory quiches">
+				</figure>
+				<p>"Found this great little place when we were visiting friends in Charleston, South Carolina! They have something called a Pimento Cheese Tomato Pie! I was too afraid to try it but my sister said it was delicioso!"</p>
+			</article> <!-- end of article 6 -->
+		</section> 
+
+		<footer>
+			<div class="address">
+				<p>
+				1750 Savannah Highway<br>
+				Charleston, SC 29407<br>
+				843.555.5555<br>
+				slo.art@protonmail.com<br>
+				</p>
+			</div>
+
+			<div class="links">
+			 <ul>
+		   		<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Our Menu</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="wedding_cakes.html">Wedding</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+
+			<div class="socials">
+				<ul>
+					<li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
+					<li><a href="http://www.instagram.com" target="_blank">Instagram</a></li>
+					<li><a href="http://www.twitter.com" target="_blank">Twitter</a></li>
+				</ul>
+			</div>
+		</footer>
+	</main>
+</body>
+</html>
+

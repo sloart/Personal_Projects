@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Wildflour Pastry Charleston" content="Wild, out-of-the-box pastries and desserts">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="working_style_0422.css">
+	<title>Wildflour Pastry - Charleston, SC</title>
+</head>
+
+<body>
+	<main>
+		<nav>
+			<div>
+				<img class="logo" src="images/WILDFLOURPASTRY_LOGO.png" alt="Wildflour logo">
+		    </div>
+				  
+			<input id="menu-toggle" type="checkbox" />
+		    <label class='menu-button-container' for="menu-toggle">
+				<div class='menu-button'></div>
+		    </label>
+
+		    <ul class="menu">
+		   		<li></li> <!-- secret invisible cell at beginning of ul li-->
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Our Menu</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="wedding_cakes.html">Wedding Cakes</a></li>
+				<li><a href="contact.html">Contact</a></li>
+		    </ul>
+		</nav>
+
+		<
+
+		<article class="flex-container">
+			<h1>Wedding Cakes</h1>
+			
+			<p>Creating your dream wedding cake is our passion. The sky is the limit when it comes to designing, baking, sculpting, and decorating the perfect confectionary masterpiece for your big day. We are available at every step of the process: from tasting, to designing, to delivery. We know how special this day is and we take our work seriously! </p>
+			<p>Please take a look at some of our past creations for inspiration. When you are ready to meet and discuss your options, fill out the form below and we will be in touch with you. Please allow three months at a minimum between now and your wedding.</p>
+			
+		</article>	
+
+		<article class="flex-container">
+			
+			<section class="card">
+				<figure>
+					<img src="images/cake_one_free_license(small).jpg" alt="white cake decorated with red roses" class="responsive">
+					<figcaption>
+						<p>example cake #1</p>
+					</figcaption>
+				</figure>
+			</section>
+			<section class="card">
+				<figure>
+					<img src="images/cake_two_free_license(small).jpg" alt="blue and white cake topped with pink roses" class="responsive">
+					<figcaption>
+						<p>example cake #2</p>
+					</figcaption>
+				</figure>
+			</section>
+			<section class="card">
+				<figure>
+					<img src="images/cake_three_free_license(small).jpg" alt="pink cake with white filagree" class="responsive">
+					<figcaption>
+						<p>example cake #3</p>
+					</figcaption>
+				</figure>
+			</section>
+			
+		</article>
+				
+		<section id="contact">
+			
+			<h2>Wedding Cake Inquiry</h2>
+			
+			<article>
+			    <form action="php, asp, js file that will run on the server">  <!-- <-- our form will not "work" -->
+		            <p>Name: <input type="text" name="full_name"></p>
+					<p>Email: <input type="text" name="email_address"></p>
+					<p>Please provide the following: Your phone number, the date of your wedding, and a description of the cake you have in mind. Also, let us know whether you are currently in Charleston, or will be arriving at a later date.</p>
+		            <textarea name="message" rows="15" cols="80"></textarea>
+		            <p><button type="button" onclick="alert('Thank you! We will get back to you soon.')">Submit</button></p>
+		        </form>
+			</article>
+			
+		</section>  <!-- end of contact section -->
+	
+		<footer>
+			<blockquote>
+			1750 Savannah Highway<br>
+			Charleston, SC 29407<br>
+			843.555.5555<br>
+			slo.art@protonmail.com<br>
+			</blockquote>
+		</footer>
+	</main>
+</body>
+</html>
+
