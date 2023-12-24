@@ -1,0 +1,66 @@
+div {
+  padding: 0;
+  margin-right: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  &:after {
+    content:'';
+    display:block;
+    flex-grow: 10;
+  }
+}
+
+li {
+  height: 40vh; 
+  flex-grow: 1;
+  list-style-type: none;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: contain;
+  vertical-align: bottom;
+  &:hover {
+    transform: scale(1.3,1.3);
+  }
+}
+
+
+/*media queries*/
+@media (max-aspect-ratio: 1/1) { /*decrease row height when viewport taller than wide */
+  li {
+    height: 30vh;
+  }
+}
+
+@media (max-height: 480px) { /*increase row height when small screen in landscape */
+  li {
+    height: 80vh;
+  }
+}
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) { /*smaller screen in portrait */
+  ul {
+    flex-direction: row;
+  }
+
+  li {
+    height: auto;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+      &:hover {
+    transform: scale(1,1);
+  }
+}
