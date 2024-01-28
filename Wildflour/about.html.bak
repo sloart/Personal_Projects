@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Wildflour Pastry Charleston" content="Wild, out-of-the-box pastries and desserts">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="working_style_0422.css">
+	<title>Wildflour Pastry - Charleston, SC</title>
+</head>
+
+<body>
+	<main>
+		<nav>
+			<div>
+				<img class="logo" src="images/WILDFLOURPASTRY_LOGO.png" alt="Wildflour logo">
+		    </div>
+				  
+			<input id="menu-toggle" type="checkbox" />
+		    <label class='menu-button-container' for="menu-toggle">
+				<div class='menu-button'></div>
+		    </label>
+
+		    <ul class="menu">
+		   		<li></li> <!-- secret invisible cell at beginning of ul li-->
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Our Menu</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="wedding_cakes.html">Wedding Cakes</a></li>
+				<li><a href="contact.html">Contact</a></li>
+		    </ul>
+		</nav>
+
+		<article class="flex-container">
+			<section class="card">
+				
+				<h1>The WildFlour Story</h1>
+				
+				<img src="images/Lauren_smiling.png" alt="lauren smiling" class="responsive">
+				
+				<div class="para">
+				<p><span class="script-text">Lauren Mitterer</span> received her degree in Baking & Pastry from the Culinary Institute of America in Hyde Park, New York in 2004.</p>
+				<p>She began her culinary career as an Intern at Tavern on the Green in NYC and while a student at the CIA completed an Externship in Baking & Pastry at Larkspur In Vail, Colorado.</p>
+				<p>Upon graduating from the CIA in 2004, Lauren moved to Charleston, South Carolina to accept a position as Executive Pastry Chef at Red Drum Gastropub where she quickly became a "rising star" in Charleston's culinary scene.</p>
+				<p>In 2009, Lauren left Red Drum Gastropub to pursue her dream of creating deconstructed yet elegant versions of comfort desserts, satisfying that unique craving of sweet and salty. Providing Charleston with her famous double chocolate cookies, sweet & savory scones, and legendary "Sticky Bun Sunday," WildFlour Pastry quickly became a favorite of the King Street neighborhood locals and those seeking an extraordinary dessert or specialty cake for their special occasions. A graduate of UVA with a degree in Studio Art, Lauren flexes  her artistic muscles by creating gravity defying cakes designed with minute attention to detail replicating designs satisfying all the senses.</p>
+				<p>With a passion for detail in visual design and flavor palates, Lauren shares her love of the unexpected in the comfort of WildFlour Pastry - out of the box pastries & desserts.</p></div>
+				
+			</section>
+		</article>
+		
+		<footer>
+			<blockquote>
+			1750 Savannah Highway<br>
+			Charleston, SC 29407<br>
+			843.555.5555<br>
+			slo.art@protonmail.com<br>
+			</blockquote>
+		</footer>
+	</main>
+</body>
+</html>
+

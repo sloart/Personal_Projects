@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Wildflour Pastry Charleston" content="Wild, out-of-the-box pastries and desserts">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="working_style_0422.css">
+	<title>Wildflour Pastry - Charleston, SC</title>
+</head>
+
+<body>
+	<main>
+		<nav>
+			<div>
+				<img class="logo" src="images/WILDFLOURPASTRY_LOGO.png" alt="Wildflour logo">
+		    </div>
+				  
+			<input id="menu-toggle" type="checkbox" />
+		    <label class='menu-button-container' for="menu-toggle">
+				<div class='menu-button'></div>
+		    </label>
+
+		    <ul class="menu">
+		   		<li></li> <!-- secret invisible cell at beginning of ul li-->
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html#about">About</a></li>
+				<li><a href="menu.html">Our Menu</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="wedding_cakes.html">Wedding Cakes</a></li>
+				<li><a href="contact.html">Contact</a></li>
+		    </ul>
+		</nav>
+
+		<div class="hero-image"><!-- this is only on the Home page --> 
+			<div class="hero-text">
+	    		<h1 style="font-size:40px">Wild, out-of-the-box pastries and desserts</h1>
+	    		<h3>in Charleston, South Carolina</h3>
+	        </div>
+		</div>	
+
+		<article> <!-- this one just is on the hero image on home screen -->
+				<h2>Hours:</h2>
+				<p>OPEN Wed-Fri 6:30am - 4:30pm</p>
+				<p>Saturday 8am - 3pm</p>
+				<p>Sunday 8am - 1pm</p>
+				<p>CLOSED Monday & Tuesday</p>
+				<h2>Location:</h2> 
+				<p>1750 Savannah Highway<br>
+				Charleston, SC 29407</p>
+			</article> 
+
+		<content>
+			<h1>
+				Our Menu
+			</h1>
+			<article class="flex-container">
+				This is where the set of cards in "Our Menu" can go
+				<section class="card">
+
+				</section>
+				<section class="card">
+								
+				</section>
+				<section class="card">
+								
+				</section>
+				<section class="card">
+								
+				</section>
+				<section class="card">
+								
+				</section>
+			</article>
+			<hr>
+        	
+		</content>
+	</main>
+
+		<footer>
+			<blockquote>
+			1750 Savannah Highway<br>
+			Charleston, SC 29407<br>
+			843.327.2621<br>
+			wildflouring@gmail.com<br>
+			</blockquote>
+		</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,128 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+body > .container {
+  max-width: 950px;
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* Custom Navbar Styles */
+.navbar {
+  background-color: #f8f8f8;
+  border: 1px solid #e7e7e7;
+  min-height: 50px;
+  margin-bottom: 20px;
+  /* Add other general navbar styles here */
+}
+
+.navbar-header {
+  display: block;
+}
+
+.navbar-brand {
+  color: #777;
+  padding: 15px 15px;
+  display:  block;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* Add styles for the navbar menu */
+}
+
+.navbar-nav li {
+  /* Styles for each menu item */
+}
+
+.navbar-nav li a {
+  color: #777;
+  padding: 15px 15px;
+  display: flex;
+  text-decoration: none;
+  /* Add hover effects and other styles */
+}
+
+.text-right li a {
+  text-align: right;
+}
+
+#navbar {
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar-nav li {
+    width: 100%;
+    /* Styles for menu items on small screens */
+  }
+}
+
+/* Hamburger menu */
+@media (max-width: 760px) {
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    display: none; /* Hide initially */
+  }
+  .navbar-collapse.collapsing,
+  .navbar-collapse.in {
+    display: block !important; /* Show when toggled */
+  }
+  .navbar-nav {
+    float: none;
+    width: 100%;
+    text-align: right;
+  }
+  .navbar-nav li {
+    display: block; /* Stack the items vertically */
+  }
+
+  .navbar-nav li a {
+    display: block;
+  }
+}
+
+@media (min-width: 800px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+
+

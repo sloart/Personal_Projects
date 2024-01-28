@@ -1,0 +1,24 @@
+#isbn-title-author, #genre-cover-notes {
+    margin: 8px;
+}
+#isbn-title-author > div, #genre-cover-notes > div {
+    margin: 8px;
+    display: flex;
+    min-height: 30px;
+}
+#isbn-title-author > div > input {
+    min-width: 80%;
+    max-width: 100%;
+}
+#isbn-title-author > div > label {
+    width: 20%;
+}
+#genre-cover-notes > div {
+    flex-direction: column;
+}
+
+.multi-line {
+    min-height: 100px;
+    min-width: 100%;
+    max-height: fit-content;
+}

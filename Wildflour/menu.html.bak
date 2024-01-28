@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Wildflour Pastry Charleston" content="Wild, out-of-the-box pastries and desserts">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="working_style_0422.css">
+	<title>Wildflour Pastry - Charleston, SC</title>
+</head>
+
+<body>
+	<main>
+		<nav>
+			<div>
+				<img class="logo" src="images/WILDFLOURPASTRY_LOGO.png" alt="Wildflour logo">
+		    </div>
+				  
+			<input id="menu-toggle" type="checkbox" />
+		    <label class='menu-button-container' for="menu-toggle">
+				<div class='menu-button'></div>
+		    </label>
+
+		    <ul class="menu">
+		   		<li></li> <!-- secret invisible cell at beginning of ul li-->
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Our Menu</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="wedding_cakes.html">Wedding Cakes</a></li>
+				<li><a href="contact.html">Contact</a></li>
+		    </ul>
+		</nav>
+
+
+		<article class="flex-container">
+			<h1>
+				Our Menu
+			</h1>
+			<p>All of our mouth-watering selections are baked fresh each morning. Come early to grab your favorites... once they're gone, they're gone!</p>
+			
+			<section class="card">
+					<figure>
+						<h2>Savory Scones</h2>
+						<ul>
+							<li>Pesto, Mozzarella & Sun-Dried Tomato</li>
+							<li>Ham & Cheddar</li>
+						</ul>
+					</figure>
+				</section>
+				
+				<section class="card">
+					<figure>
+						<h2>Sweet Scones</h2>
+						<ul>
+							<li>Strawberry Jam</li>
+							<li>Blueberry Lemon Curd</li>
+							<li>Citrus Cranberry</li>
+						</ul>
+					</figure>
+				</section>
+				
+				<section class="card">
+					<h2>Turnovers & Sweet Danishes</h2>
+					<ul>
+						<li>Caramelized Apple Turnover</li>
+						<li>Raspberry Nutella Turnover</li>
+						<li>Apricot Cheese Danish</li>
+						<li>Mixed Berry & Cheese Danish</li>
+						<li>Chocolate & Cherry Danish</li>
+						</ul>			
+				</section>
+
+				<section class="card">
+					<h2>Quiches & Savory Danishes</h2>
+					<ul>
+						<li>Broccoli & Cheddar Quiche</li>
+						<li>Bacon & Swiss Quiche</li>
+						<li>Mushroom & Gruyere Quiche</li>
+						<li>Pimento Cheese Tomato Pie w/ Bacon</li>
+						<li>Spinach & Feta Quiche</li>
+						<li>Fig, Prosciutto, & Goat Cheese Quiche</li>
+						<li>Sausage, Red Pepper, & Goat Cheese Quiche</li>
+						</ul>			
+				</section>
+				
+				<section class="card">
+					<h2>Cookies</h2>
+					<ul>
+						<li>Chocolate Chip</li>
+						<li>Oatmeal Walnut & Cranberry</li>
+						<li>Peanut Butter</li>
+						<li>Sugar</li>
+						<li>Frosted Finger Molasses</li>
+						<li>Snickerdoodle</li>
+						<li>Double Chocolate</li>
+					</ul>			
+				</section>
+				<section class="card">
+					<h2>Bars, Biscuits, & Croissants</h2>
+					<ul>
+						<li>Granola Bar</li>
+						<li>Double Chocolate Brownie Bar</li>
+						<li>Strawberry Oatmeal Bar</li>
+						<li>Blondie Bar</li>
+						<li>Buttermilk Biscuit</li>
+						<li>Bostock</li>
+						<li>Croissant</li>
+						<li>Pecan Croissant</li>
+						<li>Chocolate Croissant</li>
+					</ul>			
+				</section>
+				
+				<section class="card">
+					<h2>Sweet Breads & Muffins</h2>
+					<ul>
+						<li>Sweet Potato Apple Coffee Cake</li>
+						<li>Lemon Poppy Seed w/ Cream Cheese Glaze</li>
+						<li>Morning Glory Muffin</li>
+						<li>Banana Chocolate Chip Muffin</li>
+						<li>Blueberry Muffin</li>
+						<li>Cinnamon Pecan Coffee Cake</li>
+						<li>Doughnut Muffins</li>
+					</ul>			
+				</section>
+			</article>
+
+			
+			<article id="build_your_own_cake" class="flex-container">
+			<h1>Build Your Own Cake!</h1>
+			<p>Sheetcakes also available. Please allow at least 48 hours for creation.</p>
+			
+				<section class="card">
+					<figure>
+						<h2>Cake</h2>
+						<ul>
+							<li>Vanilla Pound Cake</li>
+							<li>Lemon Pound Cake</li>
+							<li>Almond Pound Cake</li>
+							<li>Chocolate Cake</li>
+							<li>Red Velvet Cake</li>
+							<li>Hummingbird Cake</li>
+							<li>Carrot Cake</li>
+							<li>Marble Cake</li>
+							<li>Spice Cake</li>
+							<li>Banana Cake</li>
+						</ul>
+					</figure>
+				</section>
+				<section class="card">
+					<figure>
+						<h2>Frosting</h2>
+						<ul>
+							<li>Lemon Frosting</li>
+							<li>Dulce de Leche Frosting</li>
+							<li>Caramel Frosting</li>
+							<li>Raspberry Frosting</li>
+							<li>Strawberry Frosting</li>
+							<li>Key Lime Frosting</li>
+							<li>Peppermint Frosting</li>
+							<li>Hazelnut Frosting</li>
+							<li>Coconut Frosting</li>
+							<li>Chocolate Frosting</li>
+							<li>Cream Cheese Frosting</li>
+							<li>Vanilla Frosting</li>
+							<li>Fudge Frosting</li>
+							<li>Peanut Butter Frosting</li>
+						</ul>
+					</figure>
+				</section>
+			</article>
+		        
+	</main>
+
+		<footer>
+			<blockquote>
+			1750 Savannah Highway<br>
+			Charleston, SC 29407<br>
+			843.327.2621<br>
+			wildflouring@gmail.com<br>
+			</blockquote>
+		</footer>
+
+</body>
+</html>
+

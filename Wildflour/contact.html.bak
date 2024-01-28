@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Wildflour Pastry Charleston" content="Wild, out-of-the-box pastries and desserts">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="working_style_0422.css">
+	<title>Wildflour Pastry - Charleston, SC</title>
+</head>
+
+<body>
+	<main>
+		<nav>
+			<div>
+				<img class="logo" src="images/WILDFLOURPASTRY_LOGO.png" alt="Wildflour logo">
+		    </div>
+				  
+			<input id="menu-toggle" type="checkbox" />
+		    <label class='menu-button-container' for="menu-toggle">
+				<div class='menu-button'></div>
+		    </label>
+
+		    <ul class="menu">
+		   		<li></li> <!-- secret invisible cell at beginning of ul li-->
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Our Menu</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="wedding_cakes.html">Wedding Cakes</a></li>
+				<li><a href="contact.html">Contact</a></li>
+		    </ul>
+		</nav>
+
+		<article>
+			<h1>Contact</h1>
+			<p>
+			We <strong>love</strong> receiving your comments, suggestions, and beautiful photographs! <a href="mailto:slo.art@protonmail.com">Email any time</a>, or give us a call at 843-555-5555. Be sure to tag us on Instagram or Facebook @wildflouring_charleston. They might end up on our site! </p>
+		</article> 
+
+		<article class="hiring">
+			<h1>We're Hiring!</h1>
+			<div class = "para"><p>
+			We are looking for a Baker to prepare different types of bread and a wide range of pastries, like cookies, cakes and pies. Come in today to fill out an application or bring your resume.</p>
+			<p>
+			Baker responsibilities include opening the bakery early in the morning, mixing dough, preparing fillings and glazing pastries. To be successful in this role, you should have work experience as a baker and be able to decorate cakes using creative techniques.</p>
+			<p>
+			Ultimately, you will make sure we offer fresh and delicious goods to our customers on a daily basis.</p></div>
+			
+			
+			<h2>Responsibilities</h2>
+			<div class = "para-small">
+				<ul>
+					<li>Open the bakery early in the morning</li>
+				    <li>Clean kitchen equipment and tools before use</li>
+				    <li>Weigh flour and other ingredients to prepare dough</li>
+				    <li>Bake different bread types, like pretzels, baguettes and multigrain breads</li>
+				    <li>Adjust oven temperatures to ensure proper baking</li>
+				    <li>Mix various ingredients to create fillings for cakes and pies (e.g. chocolate ganache, caramel sauce and fruits)</li>
+				    <li>Decorate cakes with glazes, icings, buttercream and edible toppings, like flowers</li>
+				    <li>Shape dough to prepare different types of pastries, including croissants, cookies and sweet rolls</li>
+				    <li>Prepare custom-made pastries based on customers’ preferences (e.g. birthday cakes)</li>
+				    <li>Recommend recipes to renew our menu and attract more customers (e.g. gluten-free or vegan desserts)</li>
+				    <li>Track food supplies and place orders, as needed</li></ul></div>
+			
+			
+			<h2>Requirements and skills</h2>
+			<div class = "para-small">
+				<ul>
+					<li>Experience as a Baker, Pastry Chef or similar role</li>
+				   <li>Familiarity with all professional kitchen equipment, including mixers, blenders and dough sheeters</li>
+				   <li>Understanding of food safety practices</li>
+				   <li>Experience with cake decoration techniques</li>
+				   <li>Excellent time-management skills</li>
+				   <li>Ability to remain calm and focused in a fast-paced environment</li>
+				   <li>Team spirit, with a customer-focused attitude</li>
+				   <li>Flexibility to work in early morning shifts</li>
+				   <li>Certification from a culinary school is a plus</li></ul></p></div>
+		</article>
+		
+	</main>
+
+		<footer>
+			<blockquote>
+			1750 Savannah Highway<br>
+			Charleston, SC 29407<br>
+			843.555.5555<br>
+			slo.art@protonmail.com<br>
+			</blockquote>
+		</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,17 @@
+table {
+width: 100%;
+}
+
+.truncated {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+th, td {
+height: 100px;
+padding: 10px;
+}
+
+td > img {
+max-height: 100%;
+}

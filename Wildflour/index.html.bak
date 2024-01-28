@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Wildflour Pastry Charleston" content="Wild, out-of-the-box pastries and desserts">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="working_style_0422.css">
+	<title>Wildflour Pastry - Charleston, SC</title>
+</head>
+
+<body>
+	<main>
+		<nav>
+			<div>
+				<img class="logo" src="images/WILDFLOURPASTRY_LOGO.png" alt="Wildflour logo">
+		    </div>
+				  
+			<input id="menu-toggle" type="checkbox" />
+		    <label class='menu-button-container' for="menu-toggle">
+				<div class='menu-button'></div>
+		    </label>
+
+		    <ul class="menu">
+		   		<li></li> <!-- secret invisible cell at beginning of ul li-->
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Our Menu</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="wedding_cakes.html">Wedding Cakes</a></li>
+				<li><a href="contact.html">Contact</a></li>
+		    </ul>
+		</nav>
+
+		<article>
+		
+			<div class="hero-image">
+				<div class="spacer"></div>
+				<div class="hero-text">
+					<h1>Wild, out of the box pastries & desserts</h1>
+	    		</div>
+			</div>
+			
+		</article>	
+
+		<article id="hours_and_location">
+			<h2>Hours:</h2>
+			<p>OPEN Wed-Fri 6:30am - 4:30pm</p>
+			<p>Saturday 8am - 3pm</p>
+			<p>Sunday 8am - 1pm</p>
+			<p>CLOSED Monday & Tuesday</p>
+			<h2>Location:</h2> 
+			<p>1750 Savannah Highway<br>
+			<p>Charleston, SC 29407</p>
+		</article> 
+		
+		<article id="news" class="card">
+			    <h2>Psst... we're hiring!</h2>
+			    <figure>
+			      <a href="contact.html#hiring">Do you love to bake?</a>
+			    </figure>
+			    
+			    <p>Are you an early riser who likes to start before the sun comes up and get your work done in peace? Is the smell of freshly baked bread your idea of heaven?<br>We are looking for a Baker to prepare different types of bread and a wide range of pastries, like cookies, cakes and pies. <br>Click the link above for a full description of this rewarding, tasty work. We look forward to meeting you!</p>
+			    
+			  </article>
+	
+		<footer>
+			<blockquote>
+			1750 Savannah Highway<br>
+			Charleston, SC 29407<br>
+			843.555.5555<br>
+			slo.art@protonmail.com<br>
+			</blockquote>
+		</footer>
+	</main>
+</body>
+</html>
+
